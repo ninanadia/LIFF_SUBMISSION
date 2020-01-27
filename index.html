@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+<title>Cross word </title>
+<style>
+	body{
+		background-image:url(gambarr.jpeg);
+		background-size: cover;
+	}
+#cross{
+	text-align: center;
+	width:30px;
+	height:30px;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+#buttons{
+	width:30%;
+	float: right;
+}
+tr{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+
+}
+td{
+	height: 10px;
+	width: 10px;
+	
+}
+#leftBox{
+	float: left;
+}
+#rightBox{
+	float: left;
+	clear:left;
+
+}
+.butt{
+	height:50px;
+	width: 90px;
+	background-color: pink;
+}
+#puzzel{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+.inputBox{
+		width: 25px;
+		height:25px;
+		border: 1px solid black;
+		text-align: center;
+
+}
+#hintsTable{
+	width: 500px;
+	margin-left: 35px;
+    line-height: 1.5;
+
+}
+	  }
+</style>
+<body>
+    <body bgcolor="lightblue">
+    <center><p style="font-size:30px"><strong>Cross Word</p></strong></center>
+    <hr>
+</head>
+<body onload="initializeScreen()">
+<div id="leftBox">
+<table id="puzzel">
+
+</table>
+</div>
+<div id="rightBox">
+<table>
+	<tr><td><input class="butt"  type="submit" value="Play" onclick="clearAllClicked()"></td>
+		<tr><td><input class="butt"  type="submit" value="Clear All" onclick="clearAllClicked()"></td>
+	<td><input class="butt"  type="submit" value="Check" onclick="checkClicked()"></td>
+	<td><input class="butt"  type="submit" value="Solve" onclick="solveClicked()"></td>
+	<td><input class="butt"  type="submit" value="Clue" onclick="clueClicked()"></td>
+	<td><input class="butt"  type="submit" value="Cek Skor" onclick="cek_skor()"></td>
+	<td><button id="liff_profile" class="butt">Player</button></td>
+	<td><button id="liff" class="butt">Open in browser</button></td></tr>
+</table>
+</div>
+
+<table id="hintsTable">
+		<tr>
+			<td><strong>Mendatar:</strong></td><td><strong>Menurun:</strong></td>
+		</tr>
+		<tr>
+			<td>2.framework CSS</td><td>1.tempat untuk menyimpan data-data pada sebuah website </td>
+		</tr>
+		<tr>
+			<td>5.Bahasa pemrograman </td><td>3. Perangkat lunak (inggris)</td>
+		</tr>
+		<tr>
+			<td>7. Pekerjaan di bidang IT </td><td>4. Application Programming Interfaces </td>
+		</tr>
+		<tr>
+			<td>9. Tag untuk membuat tubuh dari sebuah halaman </td><td>6. Top level domain </td>
+		</tr>
+		<tr>
+			<td>10. Desain website agar tampilannya  menjadi menarik </td><td>8. Software untuk membuat website </td>
+</table>
+<script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+<script src="script.js"></script>
+<script src="liff-starter.js"></script>
+</body>
+</html>
