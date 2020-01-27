@@ -54,7 +54,7 @@ liff.getProfile().then(profile => {
 function browserButtonHandlers(){
 document.getElementById('liff').addEventListener('click',function(){    
 liff.openWindow({
-  url:'https://liffcrossword.herokuapp.com',
+  url:'https://crosswordnnliff.herokuapp.com/',
   external:true
 })
 });
