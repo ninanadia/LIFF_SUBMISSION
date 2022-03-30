@@ -1,2 +1,2 @@
-# LIFF_SUBMISSION
+# LIFF SUBMISSION
 this is submission of line frontend framework dicoding
